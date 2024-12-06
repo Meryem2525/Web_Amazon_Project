@@ -1,0 +1,531 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+/* navbar bölümü için başlangıç */
+.first{
+   width: 100%; 
+   height: 70px;
+   background-color: black;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.first img{
+    width: 130px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px  solid transparent;
+    border-radius: 3px;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.flex span,
+i{
+    color: rgb(249, 246, 246);
+}
+.logo{
+    flex: 0.18;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+.map{
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.map i{
+    margin-top: 17px;
+    padding-left: 5px;
+    font-size: 17px;
+}
+.map div{
+    padding: 5px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+}
+.map div span:first-child{
+    font-weight: 400;
+    font-size: 13px;
+}
+.map div span{
+    font-weight: bold;
+}
+.right{
+    justify-content: space-between;
+    flex: 0.29;
+    margin-right: 10px;
+    align-items: center;
+}
+.input{
+    width: 100%;
+    background-color: white;
+    flex: 0.53;
+    border-radius: 5px;
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+
+}
+.input input{
+    outline: none;
+    width: 80%;
+    font-size: 16px;
+    padding: 10px 2px;
+    border: none;
+}
+.input .fa-search{
+    color: rgb(51, 45, 45);
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color:rgb(204, 146, 29) ;
+    border-radius: 0 5px 5px 0;
+}
+.input div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid gray;
+    background-color: rgb(199, 187, 187);
+    padding: 6px 0;
+}
+.input div span{
+    border-radius: 5px 0 0 5px;
+    color: rgb(84, 83, 83);
+    padding: 6px 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.input .fa-search-down{
+    color: rgb(65, 60, 60);
+    cursor: pointer;
+    padding: 5px;
+}
+.lang i{
+padding: 0;
+margin: 0;
+color: gray;
+}
+.lang{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.right img{
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    margin: 0;
+    padding-top:10px ;
+    cursor: pointer;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 6px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.sign span:first-child{
+    font-weight: 400;
+    font-size: 13px;
+
+}
+.sign span{
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+}
+.flex .ac span{
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.fa-shoppiing-cart{
+    font-size: 30px;
+}
+.ca{
+    font-size: 14px;
+    font-weight: bold;
+}
+.cart{
+    align-items: flex-end;
+    position: relative;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.cart p{
+    position: absolute;
+    font-weight: bolder;
+    color: rgb(44, 42, 42);
+    top: 1px;
+    left: 16px;
+}
+.cart:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.logo img:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.map:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.lang:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.sign:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.input .fa-search:hover{
+    background-color:rgb(152, 146, 134)  ;
+}
+.input div:hover{
+background-color: rgb(246, 242, 236) ;
+color: black;
+}
+
+/* navbar kısmımız bitti  */
+
+
+/* navbarın altındaki kısa bölüm başlangıcı */
+.second{
+    width: 100%;
+    height: 42px;
+    background-color: rgb(85, 81, 81);
+    display: flex;
+    align-items: center;
+    color: #fff;
+    overflow: hidden;
+}
+.second ul{
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.second span{
+    font-size: 15px;
+}
+.second-1 div{
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.second li{
+    padding: 5px 10px;
+    font-size: 15px;
+    margin: 7px 0;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.second-1{
+    flex:0.06 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-1 div{
+    
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+}
+.second-2{
+    display: flex;
+    flex: 0.74;
+    justify-content: flex-start;
+}
+.second-3{
+    flex: 0.2;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.second-3 div span{
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 3px;
+}
+.second-1 div span{
+    padding: 5px 10px;
+   
+    cursor: pointer;
+}
+.second-1 div:hover{
+    border: 2px solid white;
+}.second-2 li:hover{
+    border: 2px solid white;
+}.second-3 span:hover{
+    border: 2px solid white;
+}
+/* navbarın altındaki küçük kısmın bitişi */
+/* başlık kısmını bitirdim. */
+/* section bölümünün başlangıcı */
+
+
+.section1{
+    position: relative;
+    width: 100%;
+    height: 1190px;
+    box-sizing: border-box;
+}
+.slide img{
+    width: 1360px;
+    height: 100%;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.slider{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 610px;
+}
+.image-box{
+    display: flex;
+    position: absolute;
+    animation: carousel  15s alternate infinite;
+}
+@keyframes carousel{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    24%{
+        left: -1360px;
+    }
+    
+    42%{
+        left: -1360px;
+    }
+
+    54%{
+        left: calc(-1160*2px);
+    }
+
+    60%{
+        left: calc(-1360*2px);
+    }
+
+    84%{
+        left: calc(-1360*3px);
+    }
+
+    100%{
+        left: calc(-1360*3px);
+    }
+
+    /* 86%{
+        left: calc(-1360*4px);
+    }
+    100%{
+        left: calc(-1360*4px);
+    } */
+
+}
+.container1{
+    position: absolute;
+    z-index: 1;
+    top: 230px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, transparent,#fff 30%);
+}
+.container1 .para{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+.container1 div:first-child{
+    font-size: 16px;
+
+    padding: 8px 0;
+
+}
+.product-comp{
+    width:100% ;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 20px 0;
+    justify-content: space-around;
+    background-color: rgba(191, 191, 198, 0.198);
+}
+.product-comp .box{
+    width: 415px;
+    height: 400px;
+    background-color: white;
+    margin: 20px;
+    padding-right: -20px;
+   
+}
+.box h3{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom:10px ;
+    color: rgb(42, 40, 40);
+}
+.box a{
+    font-size: 13px;
+    margin-left: 20px;
+    display: block;
+    margin-top: -20px;
+    padding-top: 30px;
+}
+.box-a{
+    overflow: hidden;
+    background-color: white;
+}
+.box div img{
+    width: 157px;
+    height: 120px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 0;
+}
+.box-a div{
+    display: inline-block;
+}
+.box-a div span{
+    display: block;
+    font-size: 17px;
+    margin-left: 20px;
+    text-align: center;
+}
+.box.box-one img{
+    margin: 0 20px;
+    width: 355px;
+    cursor: pointer;
+    padding-left: 20px;
+    height: 280px;
+   
+}
+.section2{
+    width:100%;
+    height: 315px;
+    padding: 25px;
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+.slide-sec h3 {
+font-size: 20px;
+padding-bottom: 5px;
+}
+.slide-sec{
+    width: 100%;
+    height:100%;
+    padding: 20px 20px 10px 20px ;
+    overflow-x: hidden;
+    background-color: #fff;
+    position: relative;
+
+}
+.product-slide{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    /* güzel detay */
+}
+
+.product-slide::-webkit-scrollbar{
+    background-color: transparent;
+    /* background-color: red; */
+    height: 7px;
+    cursor: pointer;
+}
+.product-slide::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    cursor: pointer;
+/* background-color: blueviolet; */ 
+}
+.product-slide li{
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.left-btn,
+.right-btn{
+    background-color: rgb(242, 240, 240);
+    height: 90px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    top: 35%;
+    position: absolute;
+    border: 3px solid transparent;
+}
+/* iki yön butonları üst üste gelmişti position absolute ile yerlerini değiştirdim. */
+.left-btn{
+    border-radius:0 5px 5px 0 ;
+    left: 20px;
+}
+.right-btn{
+    border-radius:5px 0 0 5px ;
+    right: 20px;
+}
+/* buton yönlerini doğru yere yerleştirdim. */
+.left-btn:hover{
+    border: 3px solid rgb(203, 167, 21);
+}
+.right-btn:hover{
+    border: 3px solid rgb(203, 167, 21);
+}
+.left-btn i,
+.right-btn i{
+    color: rgb(223, 171, 13);
+    position: absolute;
+    font-size:30px;  
+    top: 35%;
+    left: 13%;
+    right: 13px;
+
+} 
