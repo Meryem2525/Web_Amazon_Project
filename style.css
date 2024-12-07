@@ -529,3 +529,93 @@ padding-bottom: 5px;
     right: 13px;
 
 } 
+/* footer bölümü */
+footer {
+    margin-top: 15px;
+  }
+  .foot-panel1 {
+    background-color: #364759;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  .foot-panel1 a {
+    color: white;
+  }
+  .foot-panel1:hover {
+    opacity: 0.9;
+    transition: opacity 0.3s;
+    cursor: pointer;
+  }
+  .foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 220px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .foot-panel2 ul {
+    margin-top: 20px;
+  }
+  .foot-panel2 p {
+    font-size: 18px;
+  }
+  .foot-panel2 a {
+    display: block;
+    font-size: 13px;
+    color: #c9c9c9;
+    margin-top: 10px;
+  }
+  .foot-panel2 a:hover {
+    transition: color 0.3s ease-in-out;
+    color: #fabd68;
+  }
+  .foot-panel3 {
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    display: flex;
+    flex-direction: column;
+  }
+  .foot-panel3 .logo {
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+  }
+  .foot-panel3 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  .foot-panel3 ul a {
+    font-size: 13px;
+    color: white;
+  }
+  .foot-panel3 ul a:hover {
+    text-decoration: underline;
+  }
+  .foot-panel4 {
+    background-color: #0c1116;
+    color: white;
+    height: 80px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .pages {
+    padding-top: 25px;
+  }
+  .pages a {
+    margin-left: 10px;
+    color: rgb(193, 191, 191);
+  }
+  .pages a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+  .copyright {
+    padding-top: 10px;
+  }
