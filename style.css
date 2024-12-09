@@ -149,12 +149,12 @@ color: gray;
     border: 1px solid transparent;
     border-radius: 3px;
 }
-.sign span:first-child{
+.sign1 span:first-child{
     font-weight: 400;
     font-size: 13px;
 
 }
-.sign span{
+.sign1 span{
     display: inline-block;
     width: 100%;
     font-weight: bold;
@@ -202,7 +202,7 @@ color: gray;
     border: 1px solid white;
     border-radius: 3px;
 }
-.sign:hover{
+.sign1:hover{
     border: 1px solid white;
     border-radius: 3px;
 }
