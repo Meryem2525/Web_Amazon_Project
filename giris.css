@@ -1,0 +1,168 @@
+
+
+
+* {
+    box-sizing: border-box;
+}
+body, h1, p, div {
+    margin: 0;
+    padding: 0;
+}
+.main_giris{
+    width: 700px;
+    height: 414.4px;
+    display: flex;
+    justify-content: center; /* Yatayda ortalama */
+    align-items: center;    /* Dikeyde ortalama */
+    margin: 0 auto;         /* Sayfanın ortasına yerleştirir */
+    padding: 64px;
+   
+}
+.amazon_giris_logo{
+    display: flex;
+    width: 103px;
+    height: 31px;
+    margin-bottom: 42px;
+}
+.nav_amazon_logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 54px;
+    margin-bottom: 24px;
+}
+
+.giris_box{
+    width: 100%; /* Ana div genişliğini kaplasın */
+    max-width: 400px; /* Maksimum genişlik */
+    padding: 24px;
+    text-align: center; /* Metni ortalar */
+    border: 1px solid #ddd; /* Çerçeve */
+    box-sizing: border-box; /* Padding boyutu kontrol altında */
+    
+}
+.giris_h1{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-bottom: 10px !important;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    display: flex;
+    justify-content:flex-start;
+   
+}
+
+.a-form-label{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.giris_input{
+    width: 345px;
+    height: 31px;
+    padding: 3px 7px;
+}
+.button_giris_yellow {
+    width: 400px;
+    height: 32px; /* Dinamik yükseklik */
+    color: #0F1111;
+    background-color: #F7CA00;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 10px 20px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  
+    .paragraf_giris{
+        word-wrap: break-word;
+        text-align: left;
+   
+    }
+    .paragraf_giris_div{
+        margin-top: 16px;
+    }
+    .yardım_p{
+    margin-top:36px ;
+    color: #0066C0;
+    display: flex;
+    justify-content: flex-start;
+    }
+    .button_girisyap {
+        display: flex;
+        justify-content: flex-start; /* Sola hizala */
+        align-items: center;         /* Dikey ortala */
+       margin-top: 16px;
+    }
+    .amazon_hesabı{
+        width: 400px;
+        height: 28px; /* Dinamik yükseklik */
+        color: #0F1111;
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 18px 28px;
+        margin: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        
+    }
+    .amazon_hesabı_cont{
+        display: flex;
+        justify-content: center; /* Sola hizala */
+        
+    }
+    hr{
+        width: 350px;
+        margin-top: 24px;
+    }
+    .div_bottom_cont{
+        display: flex;
+        justify-content: center;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        gap: 24px; /* Liste öğeleri arasında boşluk */
+        padding: 0;
+        margin: 0;
+        list-style: none; /* Noktaları kaldırır */
+    }
+    
+    li {
+        color: #0066C0;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    .bottom_title {
+        background-color: #FFFFFF;
+        padding: 60px 0; /* Üst ve alt boşluk */
+        text-align: center;
+        border-top: 1px solid  #ddd;
+        margin-bottom: 60px;
+    }
+    
+    .alt_yazı_span {
+        color: #555555;
+        font-size: 12px;
+        display: block;
+        text-align: center; /* Ortalamak için */
+        margin-top: 10px; /* Üst boşluk */
+    }
+    .prg_lnk{
+        color: #0066C0;
+        text-decoration: underline;
+    }

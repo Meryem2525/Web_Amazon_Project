@@ -529,6 +529,17 @@ padding-bottom: 5px;
     right: 13px;
 
 } 
+
+.sign_btn{
+    background-color: #000000;
+    border:0px
+}
+.amazon_giris_logo{
+    display: flex;
+    width: 103em;
+    height: 31em;
+}
+
 /* footer bölümü */
 footer {
     margin-top: 15px;
@@ -619,3 +630,4 @@ footer {
   .copyright {
     padding-top: 10px;
   }
+
